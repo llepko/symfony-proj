@@ -35,6 +35,7 @@
     "symfony/ux-live-component": "^2.6",
     "symfony/ux-react": "^2.20",
     "symfony/validator": "6.4.*",
+    "symfony/webpack-encore-bundle": "^2.2",
     "symfony/yaml": "6.4.*",
     "twig/extra-bundle": "^3.3",
     "twig/intl-extra": "^3.3",
