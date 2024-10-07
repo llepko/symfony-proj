@@ -1,14 +1,17 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './index';
+import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
 
-class App extends React.Component {
-    render() {
-        return (
-            <div>
-                HELLo
-            </div>
-        );
-    }
-}
 
-ReactDom.render(<App/>, document.getElementById('root'));
+);
+reportWebVitals();
+
+
